@@ -6,7 +6,7 @@ function searchDictionary() {
     }
   
     // Replace 'YOUR_API_KEY' with your actual Merriam-Webster API key
-    const apiKey = 'YOUR_API_KEY';
+    const apiKey = 'ba8208d6-da8f-4680-877e-4d194d4c0a5b';
     const apiUrl = `https://www.dictionaryapi.com/api/v3/references/learners/json/${wordInput}?key=${apiKey}`;
   
     fetch(apiUrl)
